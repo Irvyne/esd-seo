@@ -1,0 +1,97 @@
+@import "variables";
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/font-awesome/scss/font-awesome";
+
+body {
+  min-height: 75rem; /* Can be removed; just added for demo purposes */
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 0;
+  background: url("../img/jumbotron.jpg") no-repeat fixed center;
+  background-size: cover;
+
+  &.rick-and-morty {
+    background-image: url("../img/rick-and-morty-cover-v2.jpg");
+  }
+  p {
+    color: whitesmoke !important;
+  }
+  p:last-child {
+    margin-bottom: 0;
+  }
+  .container {
+    max-width: 40rem;
+    //background-color: rgba(255, 255, 255, 0.3);
+    //border-radius: 10px;
+    //padding: 15px;
+  }
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+  text-shadow: 1px 1px 5px white;
+  color: whitesmoke !important;
+}
+
+.album {
+  min-height: 50rem; /* Can be removed; just added for demo purposes */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7f7f7;
+}
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+
+  > img {
+    margin-bottom: .75rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  footer {
+    padding-top: 0;
+    padding-bottom: 1rem;
+  }
+}
+
+.card-review {
+  position: absolute;
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #999;
+}
+
+.card-text {
+  font-size: 85%;
+}
+
+.article {
+  background-color: #fff;
+  width: 100%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  p {
+    margin-bottom: .25rem;
+  }
+}

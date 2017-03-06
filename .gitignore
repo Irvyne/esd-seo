@@ -1,0 +1,8 @@
+/.idea/
+/build.sh
+/deployment.yml
+/node_modules
+/dist/css/*
+/dist/font/*
+/dist/img/*
+/dist/js/*
