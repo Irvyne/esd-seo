@@ -39,6 +39,10 @@ body {
   font-weight: 300;
   text-shadow: 1px 1px 5px white;
   color: whitesmoke !important;
+
+  .rick-and-morty & {
+    text-shadow: 1px 1px 5px black;
+  }
 }
 
 .album {
